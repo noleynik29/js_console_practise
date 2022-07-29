@@ -1,0 +1,62 @@
+html, body { 
+    margin: 0;
+    height: 100%;
+    overflow: hidden
+}
+
+body{
+    background-image: url(./../img/backgrounds-green-grass.jpeg);
+    background-size: cover;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.smaller_container{
+    background-color: #fff;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    justify-content: center;
+}
+
+.mail_field{
+    
+    top: 50%;
+}
+
+.mail_field, .password_field{
+    margin-bottom: 10px;
+    width: 297px;
+    background-size: 20px;
+    border: 0;
+    border-bottom: 2px solid #BFC0C5;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.mail_field, .password_field:focus{
+    outline: none;
+}
+
+.button_submit{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 24px;
+    color: #fff;
+    background-color: #1B7DFF;
+    border: 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button_submit:hover{
+    background-color: #0d53ad;
+}
